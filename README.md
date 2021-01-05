@@ -29,9 +29,11 @@ You will also need a [C POSIX library](https://en.wikipedia.org/wiki/C_POSIX_lib
 
 ## Captures
 Here are some captures I took of yfetch while testing it on different live cd's.
-<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch arch.png" width=65% height = 65%>
-<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch manjaro.png" width=65% height = 65%>
-<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch ubuntu.png" width=65% height = 65%>
+
+<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch arch.png" width=60% height = 60%>
+<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch manjaro.png" width=60% height = 60%>
+<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch ubuntu.png" width=60% height = 60%>
+<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch fedora.png" width=60% height = 60%>
 
 ## LICENSE
 This project is licensed under the GNU GPL v3.0 license. View LICENSE.md to learn more.
