@@ -13,7 +13,7 @@
 - Manjaro
 - openSUSE
 - Ubuntu
-- Pop_OS!
+- Pop!_OS
 - Linux Mint
 - Void Linux
 
