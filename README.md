@@ -1,5 +1,5 @@
 # <div align = center><h1>yfetch</h1></div>
-<p align = center>Lightweight system information retriever</p>
+<p align = center>Lightweight system information retriever.</p>
 
 # <div align = center><img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch manjaro.png" width=50% height = 50%></div>
 
