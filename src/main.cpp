@@ -15,7 +15,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#define VERSION "0.1"
+#define VERSION "0.2"
 
 #include <iostream>
 #include <fstream>
@@ -108,9 +108,9 @@ int main(void)
         color = "\033[1;36m";
         OS = "Solus";
     }
-    else if (distro.getOS().find("Pop_OS") != string::npos){
+    else if (distro.getOS().find("Pop!_OS") != string::npos){
         color = "\033[1;36m";
-        OS = "Pop_OS!";
+        OS = "Pop!_OS";
     }
     else if (distro.getOS().find("Manjaro") != string::npos){
         color = "\033[1;32m";

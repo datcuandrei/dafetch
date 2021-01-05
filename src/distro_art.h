@@ -15,7 +15,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#define VERSION "0.1"
+#define VERSION "0.2"
 
 #ifndef DISTRO_ART_H
 #define DISTRO_ART_H

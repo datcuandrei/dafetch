@@ -15,7 +15,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#define VERSION "0.1"
+#define VERSION "0.2"
 
 #include <distro_art.h>
 #include <iostream>
