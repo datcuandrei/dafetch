@@ -101,11 +101,11 @@ int main(void)
         OS = "Arch Linux";
     }
     else if (distro.getOS().find("Fedora") != string::npos){
-        color = "\033[1;36m";
+        color = "\033[1;34m";
         OS = "Fedora";
     }
     else if (distro.getOS().find("Solus") != string::npos){
-        color = "\033[1;36m";
+        color = "\033[1;34m";
         OS = "Solus";
     }
     else if (distro.getOS().find("Pop!_OS") != string::npos){
