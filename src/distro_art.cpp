@@ -15,7 +15,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#define VERSION "0.2"
+#define VERSION "1.0"
 
 #include <iostream>
 #include <fstream>
@@ -120,7 +120,7 @@ struct distro_art::distart dist(){
         art.l1 = "oooooooooooooooo  ooooooo   ";
         art.l2 = "oooooooooooooooo  ooooooo   ";
         art.l3 = "oooooooddddddddd  ooooooo   ";
-        art.l4 = "ooooooo  yyyyyyy  ooooooo   ";
+        art.l4 = "ooooooo           ooooooo   ";
         art.l5 = "ooooooo  ooooooo  ooooooo   ";
         art.l6 = "ooooooo  ooooooo  ooooooo   ";
         art.l7 = "ooooooo  ooooooo  ooooooo   ";
@@ -199,6 +199,34 @@ struct distro_art::distart dist(){
         art.l10 = "  -+++.```````````.+++-     ";
         art.l11 = "   `:///////////////:`      ";
         art.l12 = "      .-://+++//:-.         ";
+    }
+    else if (os.getOS().find("Puppy") != string::npos || os.getOS().find("Precise Puppy") != string::npos || os.getOS().find("Quirky Werewolf") != string::npos){
+        art.l1 = ":/-`````:+.        :+.:::-+   ";
+        art.l2 = "y        `s`         +:  //   ";
+        art.l3 = "y .:///:..s-       .++o//y`   ";
+        art.l4 = "y ..:oyhho-`      `NMMM- :+   ";
+        art.l5 = "y `hMMmsoyd.       /yho`  y   ";
+        art.l6 = "y -MMMo  `d+ `.-:+so      s   ";
+        art.l7 = "y``yNMNhydh.`sdNMMm.  .-  y   ";
+        art.l8 = "-+  -+ss+-`   .:yM/..-s- :/   ";
+        art.l9 = " /+        +/:-/s:-::-` :+`   ";
+        art.l10 = "  -+-       `.-.`     .+:     ";
+        art.l11 = "    -//.           `:/:`      ";
+        art.l12 = "      `-///////////:`         ";
+    }
+    else if(os.getOS().find("Peppermint") != string::npos){
+        art.l1 = "       .----:++/-.          ";
+        art.l2 = "    .+o-`   .ssss/::.       ";
+        art.l3 = "  .+ssss+`  .ssss.  -:`     ";
+        art.l4 = " -/-:osss+. .os/.  ` :s.    ";
+        art.l5 = "`+   ``./ss.:s+-``-oosso    ";
+        art.l6 = "-:`.--.-/-::-:-+oossssoo.   ";
+        art.l7 = "-osssssoo/-:-/:-:.`...`:.   ";
+        art.l8 = "`sssoo-``-+s--ss:..`  `+    ";
+        art.l9 = " .s-``  -+s+` .+ssso:-/.    ";
+        art.l10 = "  .:-  -ssss.  .+ssss+`     ";
+        art.l11 = "    .::+ssso`   `:o/.       ";
+        art.l12 = "       `-:/+:----`          ";
     }
     else{
         art.l1 = "       `smmh:       ";

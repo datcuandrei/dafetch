@@ -15,13 +15,14 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#define VERSION "0.2"
+#define VERSION "1.0"
 
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
 #include <time.h>
 #include <distro_art.h>
+#include <sys/sysinfo.h>
 
 using namespace std;
 
@@ -34,6 +35,7 @@ class fetch
     public:
         void fetchInfo(string loc);
         void searchInfo(string loc,string substring,int fErase,int eErase);
+        void uptime();
 
 };
 

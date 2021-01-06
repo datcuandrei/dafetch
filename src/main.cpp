@@ -15,7 +15,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#define VERSION "0.2"
+#define VERSION "1.0"
 
 #include <iostream>
 #include <fstream>
@@ -42,29 +42,6 @@ void blocks(){
 	cout << "\033[1;35m████\033[0m"; // magenta
 	cout << "\033[1;36m████\033[0m"; // cyan
 	cout << "\033[1;37m████\033[0m" << endl; // white
-}
-
-/*
-    function that retrieves the uptime and
-    displays it correctly.this wouldn't have
-    been possible without the help of a
-    stackoverflow answer.if you are interested
-    on what api to use and get the uptime :
-
-    https://stackoverflow.com/questions/1540627/what-api-do-i-call-to-get-the-system-uptime
-
-*/
-void uptime(){
-    struct sysinfo s_info;
-    sysinfo(&s_info);
-    long uptime_hours = s_info.uptime / 3600;
-    long uptime_minutes = s_info.uptime / 60;
-    if (uptime_hours < 1){
-        cout << "\033[1;37m" << uptime_minutes << " minutes" << "\033[0m";
-    }
-    else{
-        cout << "\033[1;37m" << uptime_hours << " hours" << "\033[0m";
-    }
 }
 
 /*
@@ -132,6 +109,14 @@ int main(void)
         color = "\033[1;33m";
         OS = "Ubuntu";
     }
+    else if (distro.getOS().find("Puppy") != string::npos){
+        color = "\033[1;37m";
+        OS = "Puppy Linux";
+    }
+    else if (distro.getOS().find("Peppermint") != string::npos){
+        color = "\033[1;31m";
+        OS = "PeppermintOS";
+    }
     else{
         OS = "unknown";
     }
@@ -146,7 +131,7 @@ int main(void)
     // fetch uptime (lots of research on this one)
 
     cout << color << "\n" <<  dist().l4 << "Uptime : \033[0m";
-    uptime();
+    fetchData.uptime();
     // fetch shell
     //system("echo SHELL : $0");
     string getShell = getenv("SHELL");
@@ -155,11 +140,9 @@ int main(void)
     // fetch terminal
     string terminal = getenv("TERM");
     cout << color << "\n" << dist().l6 << "Terminal : \033[0m" << "\033[1;37m" <<terminal << "\033[0m";
-    // fetch machine ID
-    cout << color << "\n" <<  dist().l7 << "Machine ID : \033[0m";
-    fetchData.fetchInfo("/etc/machine-id");
-    // fetch CPU name
-    //searchInfo("/proc/cpuinfo","model name",0,13);
+    // fetch user session
+    string session = getenv("XDG_CURRENT_DESKTOP");
+    cout << color << "\n" <<  dist().l7 << "DE/WM : \033[0m" << "\033[1;37m" << session << "\033[0m";
     // fetch memory info
     cout << color << "\n" << dist().l8 <<"Memory : \033[0m";
     fetchData.searchInfo("/proc/meminfo","Active:",0,17);
