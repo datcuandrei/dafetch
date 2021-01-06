@@ -35,11 +35,11 @@ To install it,open terminal and follow these steps :
  # After you enter your password you should be in super user mode.
  # Once that is done,change your directory to where yfetch is downloaded.
  
- cd <path>
+ $ cd <path>
  
  # And now we can copy it in /bin/ where all binaries are.
  
- cp yfetch /bin/yfetch
+ $ cp yfetch /bin/yfetch
  
  # Once that is done,you can now run yfetch by simply entering
  
