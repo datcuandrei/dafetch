@@ -1,4 +1,4 @@
-# <div align = center><h1>yfetch</h1></div>
+# <div align = center><h1>dafetch</h1></div>
 <p align = center>Lightweight system information retriever.</p>
 
 # <div align = center><img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch manjaro.png" width=50% height = 50%></div>
@@ -27,7 +27,7 @@
 Before running it for the first time,make sure you gave yfetch the rights to execute.
 This can be done either with the help of your file manager,or in the terminal by running :
 
-`$ chmod +x yfetch`
+`$ chmod +x dafetch`
 
 To install it,open terminal and follow these steps :
 
@@ -41,11 +41,11 @@ To install it,open terminal and follow these steps :
  
  # And now we can copy it in /bin/ where all binaries are.
  
- $ mv yfetch /bin/yfetch
+ $ mv yfetch /bin/dafetch
  
  # Once that is done,you can now run yfetch by simply entering
  
- $ yfetch
+ $ dafetch
 ```
 
 ## Build
@@ -54,7 +54,7 @@ To build it,I have used `gcc`,but any C++ compiler will do.
 You will also need a [C POSIX library](https://en.wikipedia.org/wiki/C_POSIX_library).
 
 ## Captures
-Here are some captures I took of yfetch while testing it on different live cd's.
+Here are some captures I took of dafetch while testing it on different live cd's.
 
 <img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch arch.png" width=60% height = 60%>
 <img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/yfetch manjaro.png" width=60% height = 60%>
