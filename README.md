@@ -16,6 +16,8 @@
 - Pop!_OS
 - Linux Mint
 - Void Linux
+- Puppy Linux
+- PeppermintOS
 
 *and the list will grow with time.*
 
