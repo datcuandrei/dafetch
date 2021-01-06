@@ -39,7 +39,7 @@ To install it,open terminal and follow these steps :
  
  # And now we can copy it in /bin/ where all binaries are.
  
- $ cp yfetch /bin/yfetch
+ $ mv yfetch /bin/yfetch
  
  # Once that is done,you can now run yfetch by simply entering
  
