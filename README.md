@@ -21,6 +21,30 @@
 
 > It can run on any distro,but the distro will show unknown and the ASCII art will be the Linux Tux with no colors.
 > If you want a specific distro to be added,you can create a new issue regarding it.
+## Install
+Before running it for the first time,make sure you gave yfetch the rights to execute.
+This can be done either with the help of your file manager,or in the terminal by running :
+
+`$ chmod +x yfetch`
+
+To install it,open terminal and follow these steps :
+
+```bash
+ $ sudo su
+ 
+ # After you enter your password you should be in super user mode.
+ # Once that is done,change your directory to where yfetch is downloaded.
+ 
+ cd <path>
+ 
+ # And now we can copy it in /bin/ where all binaries are.
+ 
+ cp yfetch /bin/yfetch
+ 
+ # Once that is done,you can now run yfetch by simply entering
+ 
+ $ yfetch
+```
 
 ## Build
 To build it,I have used `gcc`,but any C++ compiler will do.
