@@ -1,0 +1,22 @@
+Modules and their roles :
+
+*.h - header files that contains function declarations and macro definitions to be shared between the source files.
+fetch.cpp - fetches details requested in main.cpp.
+distro_art.cpp - contains the ASCII art for all distros that dafetch supports.
+main.cpp - with the help of the files mentioned above,puts every detail together to output what you see when you run dafetch.
+
+
+Copyright (C) 2021  Andrei Datcu.
+    
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
