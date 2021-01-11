@@ -3,6 +3,24 @@
 
 # <div align = center><img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/dafetch debian.png" width=50% height = 50%></div>
 
+## Small description
+dafetch is a lightweight C++ program that runs in the terminal and retrieves system information regarding your OS such as the distro,linux,uptime,DE/WM,etc.
+Why lightweight?Compared to something more popular like neofetch,dafetch executes way faster.The advantage of neofetch is the bigger and more detailed ASCII art and more information.
+
+Execution time for neofetch :
+```
+real	0m0,579s
+user	0m0,427s
+sys	0m0,144s
+```
+
+Execution time for dafetch :
+```
+real	0m0,003s
+user	0m0,000s
+sys	0m0,003s
+```
+
 ## Supported distros
 
 - Arch(btw)
