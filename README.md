@@ -59,7 +59,9 @@ To install it,open terminal and follow these steps :
 ```
 
 ## Build
-To build it,I have used `gcc`,but any C++ compiler will do.
+With g++ :
+
+`$ g++ -o dafetch -I. main.cpp fetch.cpp distro_art.cpp`
 
 You will also need a [C POSIX library](https://en.wikipedia.org/wiki/C_POSIX_library).
 
