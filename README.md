@@ -71,6 +71,8 @@ Here are some captures I took of dafetch while testing it on different live cd's
 <img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/dafetch manjaro.png" width=60% height = 60%>
 <img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/dafetch ubuntu.png" width=60% height = 60%>
 <img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/dafetch peppermint.png" width=60% height = 60%>
+<img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/dafetch debian.png" width=60% height = 60%>
+
 
 ## LICENSE
 This project is licensed under the GNU GPL v3.0 license. View LICENSE.md to learn more.
