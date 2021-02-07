@@ -1,7 +1,7 @@
 # <div align = center><h1>dafetch</h1></div>
 <p align = center>Lightweight system information retriever.</p>
 
-# <div align = center><img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/dafetch debian.png" width=50% height = 50%></div>
+# <div align = center><img src="https://raw.githubusercontent.com/datcuandrei/yfetch/master/captures/dafetch arch.png" width=50% height = 50%></div>
 
 ## Small description
 dafetch is a lightweight C++ program that runs in the terminal and retrieves system information regarding your OS such as the distro,linux,uptime,DE/WM,etc.It's main advantage compared to other command-line system information tools is that dafetch executes faster.
